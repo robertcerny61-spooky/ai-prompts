@@ -1,0 +1,242 @@
+Tady máš hotový **Markdown (.md) soubor**, který můžeš rovnou uložit (např. `ai_prompty_analytik.md`) a používat:
+
+---
+
+````markdown
+# 🤖 AI Prompty pro IT Analytika
+
+Sada praktických promptů pro využití AI při analýze, návrhu a vývoji (FE/BE, dokumentace, testování).
+
+---
+
+## 🧠 1. Převod požadavků do technického návrhu
+
+```text
+Jsi seniorní solution analytik. Na základě následujícího business požadavku:
+[SEM VLOŽ TEXT]
+
+Navrhni:
+1) Funkční specifikaci
+2) Datový model (entity + vztahy)
+3) API kontrakty (request/response)
+4) Edge cases
+5) Rizika a nejasnosti
+
+Použij strukturovaný výstup vhodný pro dokumentaci.
+````
+
+---
+
+## ⚙️ 2. Generování FE (React + TypeScript)
+
+```text
+Jsi senior frontend developer (React + TypeScript).
+
+Na základě tohoto zadání:
+[POPIS OBRAZOVKY / USER STORY]
+
+Navrhni:
+- komponentovou strukturu
+- TypeScript typy
+- ukázkový kód hlavní komponenty
+- state management (např. React Query / Zustand)
+- validace formuláře
+
+Dodrž clean code a best practices.
+```
+
+---
+
+## 🧩 3. Převod kódu do analytické dokumentace
+
+```text
+Jsi IT analytik.
+
+Z následujícího kódu vytvoř srozumitelnou analytickou dokumentaci:
+[KÓD]
+
+Popiš:
+- co kód dělá (high-level)
+- vstupy a výstupy
+- business logiku
+- závislosti
+- možné edge cases
+
+Piš tak, aby to pochopil i neprogramátor.
+```
+
+---
+
+## 🔄 4. Návrh API (FE ↔ BE)
+
+```text
+Jsi solution architekt.
+
+Navrhni REST API pro následující use case:
+[POPIS]
+
+Uveď:
+- endpointy (GET/POST/PUT/DELETE)
+- request/response payloady
+- chybové stavy
+- autentizaci
+- příklad volání
+
+Zohledni bankovní standardy (bezpečnost, audit).
+```
+
+---
+
+## 🐍 5. Python skripty (analýza / automatizace)
+
+```text
+Jsi Python developer.
+
+Navrhni skript, který:
+[POPIS ÚKOLU]
+
+Požadavky:
+- čitelný a modulární kód
+- logging
+- ošetření chyb
+- komentáře
+
+Pokud dává smysl, použij pandas.
+```
+
+---
+
+## 🧪 6. Generování test scénářů
+
+```text
+Jsi QA analytik.
+
+Na základě této funkcionality:
+[POPIS]
+
+Vytvoř:
+- test scénáře (happy path + edge cases)
+- testovací data
+- negativní testy
+- návrh automatizace
+
+Formátuj jako tabulku.
+```
+
+---
+
+## 🧱 7. Reverse engineering (legacy systém)
+
+```text
+Jsi senior analytik.
+
+Analyzuj následující kód / popis:
+[TEXT]
+
+Vysvětli:
+- jak systém funguje
+- hlavní komponenty
+- datové toky
+- slabá místa
+- návrhy na zlepšení
+```
+
+---
+
+## 🎨 8. Návrh UI (wireframe popis)
+
+```text
+Jsi UX designer + FE developer.
+
+Navrhni UI obrazovku pro:
+[POPIS]
+
+Popiš:
+- layout (sekce)
+- komponenty
+- uživatelské flow
+- validace
+- chybové stavy
+
+Použij strukturovaný text vhodný pro FE implementaci.
+```
+
+---
+
+## 🔍 9. Debugging a analýza chyb
+
+```text
+Jsi senior developer.
+
+Analyzuj problém:
+[ERROR / LOG / KÓD]
+
+Navrhni:
+- možné příčiny
+- jak problém reprodukovat
+- řešení
+- preventivní opatření
+```
+
+---
+
+## 📊 10. Převod zadání do tasků (Jira-ready)
+
+```text
+Jsi IT analytik.
+
+Rozděl následující zadání:
+[TEXT]
+
+Na:
+- user stories
+- technické tasky
+- acceptance criteria
+
+Použij formát vhodný pro Jira.
+```
+
+---
+
+## 🚀 Tipy pro efektivní prompty
+
+* Vždy přidej **kontext** (např. banka, interní systém)
+* Specifikuj **technologie** (React, TypeScript, C#, Python…)
+* Urči **roli** („senior developer“, „solution architekt“…)
+* Řekni si o **formát výstupu** (tabulka, body, dokumentace)
+
+---
+
+## 🧩 Bonus: Univerzální "Master Prompt"
+
+```text
+Jsi seniorní IT analytik a solution architekt v bankovním prostředí.
+
+Na základě následujícího zadání:
+[TEXT]
+
+Dodrž:
+- bezpečnostní standardy
+- auditovatelnost
+- clean architecture
+
+Výstup rozděl na:
+1) Analýzu
+2) Návrh řešení
+3) Technické detaily (API, FE, BE)
+4) Rizika a edge cases
+5) Doporučení
+
+Buď konkrétní a strukturovaný.
+```
+
+---
+
+```
+
+---
+
+Pokud chceš, můžu ti to ještě:
+- upravit do **Confluence formátu**
+- nebo rozšířit o **reálné příklady z banky (payments, klient, účty, AML)**
+```
