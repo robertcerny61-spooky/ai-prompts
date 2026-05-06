@@ -1,0 +1,26 @@
+Jsem solution analytik.
+Požadavek:
+Potřebuji do funselAdvisermenu přidat novou položku - Detail žádosti.
+Tato položka bude zobrazena v případě, že se jedná o financialproduct "PH", "KONS" a zároveň serviceModeNormalized = EXTERNAL_ADVISER_ALONE.
+Při volbě této položky se provede:
+1. sestaví se URL adresa dynamicky viz. specifikace níže urlAdress
+2. uživatel je ve stávajícím tabu přesměrován
+urlAdress: "domain""queryParams"
+domain = prostředí PRS = "https://prs-cdn.csast.csas.cz/funsel/?"
+queryParams:
+product_id = plní se hodnota z financialProduct ze žádosti
+application_id = plní se hodnota z caseId
+shellOrigin = plní se "DESKTOP"
+redirectUri = plní se z context aplikace návrat do hostApplication
+idpOrigin= plní se "MEP_EXTERNAL"
+Změna se týká pouze aplikace csas-funsel
+
+Proveď:
+1) vysvětlení kódu
+2) dopady změny
+3) návrh úprav
+4) architekturní validaci
+5) unit testy
+6) Cypress testy
+7) rizika
+
