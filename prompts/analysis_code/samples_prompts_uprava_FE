@@ -15,6 +15,19 @@ redirectUri = plní se z context aplikace návrat do hostApplication
 idpOrigin= plní se "MEP_EXTERNAL"
 Změna se týká pouze aplikace csas-funsel
 
+Použij:
+- React
+- TypeScript
+- clean architecture
+- modular structure
+- reusable hooks
+- feature-based folders
+
+Po každém kroku vysvětli:
+- proč to děláš
+- tradeoffs
+- možné alternativy
+
 Proveď:
 1) vysvětlení kódu
 2) dopady změny
@@ -23,4 +36,3 @@ Proveď:
 5) unit testy
 6) Cypress testy
 7) rizika
-
