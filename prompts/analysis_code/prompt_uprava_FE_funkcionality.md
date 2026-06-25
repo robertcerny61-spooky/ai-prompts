@@ -19,18 +19,17 @@ Pracuješ na existující FE aplikaci a tvým úkolem je **bezpečně a správn�
 ## 📋 Zadání
 
 **Název změny / funkcionality:**
-Změna ve zpracování response služby /v1/electronic-documents/dossiers a /v1/electronic-documents/dossiers/products/{id}
+Úprava podmínky pro zobrazení akce v menu "Spustit žádost v GEORGE"
 
 **Popis požadavku:**
-SLužba /v1/electronic-documents/dossiers a /v1/electronic-documents/dossiers/products/{id} vrací jako response objekt DOSSIERS s daty. Potřebuji při načtení response služby provést úpravu hodnoty atributu id u dossiers a parentId. FE aplikace následně s daty dossiers pracuje. Atribut id a parentId bude upraven pouze v následujícím případě:
-Pokud "id" i parentId obsahuje zleva znaky:
-- první 2 znaky = CA
-- třetí a čtvrtý znak je = LS
-- zbylé znaky jsou pouze čísla <0,9> a zároveň počet zbylých čísel musí být > než 5 znaků
-potom hodnotu "id" i parentId uprav způsobem, že odstraníš znaky "LS" 
+Dnes se na detailu žádosti se v záhlaví zobrazuje akce Možnosti, kde je výběr akcí. 
+Potřebujeme upravit podmínky pro zobrazení akce "Spustit žádost v GEORGE". Nově bude tato akce nabídnuta za splnění podmínek:
+Žádost je na definovanou skupinu produktů (tj. Application.MainAgreement.ProductGroup == ∈ {UFO, KK, RUFO, KTK_OU})
+Jedná se o operaci, která není servisní (Application.MainAgreement.Operation má číselníku ACCOUNT_OPERATION hodnotu isServicing = 0
+
 
 **Změna se týká aplikace / modulu:**
-docui-fe
+LoanSales
 
 ---
 

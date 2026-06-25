@@ -11,7 +11,7 @@ Tato šablona slouží pro:
 ## 🧠 1. Pochopení kódu
 
 ```text
-Jsi senior frontend architekt (Angular/React) a IT analytik.
+Jsem IT analytik.
 
 Analyzuj následující kód:
 [KÓD]
