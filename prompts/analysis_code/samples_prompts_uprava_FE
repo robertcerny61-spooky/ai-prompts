@@ -39,7 +39,44 @@ Proveď:
 
 Jsem solution analytik.
 Požadavek:
-Potřebuji upravit proces case - ZDSRUFO_CT1102 a to následovně:
+Potřebuji upravit proces case - ZSUKK_CT1681 a to následovně:
+do procesu budou zařazeny 2 nové úkoly v rámci ChecklistGates: CollectData
+úkoly jsou:
+- autotask, kde taskName: ST_BASIC_CLIENT_DATA_VALIDATION, description: Validace základních dat klienta na žádosti
+- manualtask, kde taskName: UT_BASIC_CLIENT_DATA_INCOMPLETE, description: Nekompletní základní data klienta na žádosti
+nové úkoly budou ve flow zařazeny následovně:
+- UT_FILL_APPLICATION
+- ST_BASIC_CLIENT_DATA_VALIDATION
+- Pokud je úkol ST_BASIC_CLIENT_DATA_VALIDATION dokončen, ale položka "item" v checklist není splněna, pak je zařazen úkol UT_BASIC_CLIENT_DATA_INCOMPLETE
+    - úkol UT_BASIC_CLIENT_DATA_INCOMPLETE se nebude ukončovat, ale při zvolen navigačního tlačítka bude uživatel přesměrován do aplikace, ze které byl procs spuštěn
+- Jinak následuje úkol stCreateFolderDocumentationTask
+
+Použij:
+- React
+- TypeScript
+- clean architecture
+- modular structure
+- reusable hooks
+- feature-based folders
+
+Po každém kroku vysvětli:
+- proč to děláš
+- tradeoffs
+- možné alternativy
+
+Proveď:
+1) vysvětlení kódu
+2) dopady změny
+3) návrh úprav
+4) architekturní validaci
+5) nevymýšlej nové patterny
+
+Jsem solution analytik.
+Požadavek:
+Potřebuji upravit procesy na případech "case":
+SL_CT503
+
+následovně:
 do procesu budou zařazeny 2 nové úkoly v rámci ChecklistGates: CollectData
 úkoly jsou:
 - autotask, kde taskName: ST_BASIC_CLIENT_DATA_VALIDATION, description: Validace základních dat klienta na žádosti
@@ -50,6 +87,7 @@ nové úkoly budou ve flow zařazeny následovně:
 - Pokud je úkol ST_BASIC_CLIENT_DATA_VALIDATION dokončen, ale položka "item" v checklist není splněna, pak je zařazen úkol UT_BASIC_CLIENT_DATA_INCOMPLETE
     - úkol UT_BASIC_CLIENT_DATA_INCOMPLETE se nebude ukončovat, ale při zvolen navigačního tlačítka bude uživatel přesměrován do aplikace, ze které byl procs spuštěn
 - Jinak následuje úkol UT_FILL_APPLICATION_SUMMARY
+- použij pattern úprav provedených v ZDSRUFO_CT1102
 
 Použij:
 - React
