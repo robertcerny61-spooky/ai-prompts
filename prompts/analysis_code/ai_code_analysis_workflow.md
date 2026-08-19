@@ -23,6 +23,20 @@ Popiš:
 - State management
 - Závislosti
 - Klíčovou logiku
+
+
+Jsem IT analytik.
+
+Analyzuj následující kód:
+[KÓD]
+
+Popiš:
+- Účel (business pohled)
+- Hlavní odpovědnosti
+- Datové toky
+- State management
+- Závislosti
+- Detailní logiku
 ```
 
 ---

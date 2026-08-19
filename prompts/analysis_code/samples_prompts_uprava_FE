@@ -108,3 +108,38 @@ Proveď:
 3) návrh úprav
 4) architekturní validaci
 5) nevymýšlej nové patterny
+
+Jsem solution analytik.
+Požadavek:
+Potřebuji upravit aplikaci csas-funsel-soul a to následovně:
+v aplikaci se ověruje dostupnost operace pomocí služeb
+Pokud služba vrátí důvod nedostupnosti 'naReasons', tak se dle ASIS logiky mapuje kód důvodu a dojde k zobrazení hlášení.
+Potřebuji navrhnout logiku mapování, kde pro daný kód chyby mohu zobrazit hlášení podle produktu (financialProduct) nebo podle operace (operationType)
+V tuto chvíli pokud se vrátí naReasons 'LAST.INSTALLMENT.IS.NOT.PAID' pak
+- pro produkt 'RUFO' bude zobrazeno hlášení:
+Momentálně nejde požadavek provést
+Poslední splátka byla zaplacená se zpožděním. Abyste mohli v budoucnu splátku odložit, zaplaťte příští splátku včas.
+- jinak ASIS:
+Požadavek nejde provést
+Momentálně jste v prodlení se splácením.
+
+- jedná se o funkčnost alert-page
+
+Použij:
+- React
+- TypeScript
+- clean architecture
+- modular structure
+- reusable hooks
+- feature-based folders
+
+Po každém kroku vysvětli:
+- proč to děláš
+- tradeoffs
+- možné alternativy
+
+Proveď:
+1) vysvětlení kódu
+2) dopady změny
+3) návrh úprav
+4) architekturní validaci
