@@ -1,4 +1,5 @@
 # Prompt 1 – Analytik: Návrh a odladění struktury Kafka topicu
+-nice
 
 > Účel: na základě popisu požadavků a případného návrhu struktury společně **odladit**
 > finální návrh Kafka topicu včetně zpráv (payloadů), obálky, headers a pravidel.
